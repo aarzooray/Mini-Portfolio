@@ -1,0 +1,392 @@
+@media (max-width:600px) {
+    html{
+        font-size:12px ;
+    }
+    .mousePointerDot {
+        display: none;
+
+    }
+
+    .mousePointer {
+        display: none;
+    }
+
+    #navbar {
+        /* border: 2px solid red; */
+        height:6em;
+        /* font-size: 1.3em; */
+    }
+
+    .navLogo {
+        font-size: 2.3em;
+    }
+
+    #logo {
+        font-size: 3.0em;
+    }
+
+
+    #ContactPage {
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        /* background-color: red; */
+        height: 130vh;
+    }
+
+    #left {
+        font-size: 16px;
+        /* border: 2px solid green; */
+        width: 90%;
+        height: 80vh;
+        padding: 1rem 0.5rem;
+    }
+
+    #right {
+        /* border: 2px solid red; */
+        width: 90%;
+        height: 80vh;
+        font-size: 16px;
+    }
+
+    #myInfo {
+        width: 100%;
+    }
+
+    #informations {
+        width: 100%;
+    }
+
+    #right form {
+        background-color: black;
+        height: 90%;
+
+    }
+
+    #formHead {
+        font-size: 1.5em;
+    }
+
+    #btn {
+        color: red;
+        font-size:2rem;
+    }
+
+    #btn:hover {
+        font-size: 2.1rem;
+    }
+
+    nav {
+        width: 50%;
+        font-size: 10px;
+    }
+
+
+    #sidebar {
+        /* background-color: red; */
+        width: 100%;
+        height: 100%;
+
+    }
+    .sidebarLogo{
+        font-size: 3.3em;
+    }
+
+    #itemCont {
+        height: 30%;
+        /* border: 2px solid green; */
+    }
+
+    #itemCont li a {
+        /* color :red; */
+        /* border: 2px solid red; */
+        padding: 0.4em 0em;
+    }
+
+    #sidebar #itemCont li {
+        /* border: 2px solid red; */
+        padding: 0.5rem 0.3em;
+        font-size: 1.8em
+    }
+
+    #navbar #logo {
+        font-size: 2em;
+    }
+
+
+
+    input {
+        padding: 0.9em 0.2em;
+    }
+
+    /* Hero Section Responsive Page Design */
+    .hero {
+        height: 80vh;
+
+    }
+
+    #profileSection {
+        margin-top: 10vh;
+        /* border: 2px solid red; */
+        width: 100%;
+        font-size: 10px;
+        height: 70vh;
+        flex-direction: column;
+        /* background-color: gainsboro; */
+        /* justify-content: center;
+        align-items: center; */
+
+    }
+
+    #section-1 {
+        /* margin-top: 20vh; */
+        width: 40vh;
+        /* border: 2px solid green; */
+        height: 100%;
+        margin: 0;
+    }
+
+    #profileSection #image {
+        width: 100%;
+        height: 50%;
+        /* border: 2px solid red; */
+
+    }
+
+    #image img {
+        width: 80%;
+        border-radius: 1em;
+    }
+
+    #section-2 {
+        /* background-color: red; */
+        width: 100%;
+        height: 40%;
+        font-size: 12px;
+    }
+
+    #tagline {
+        /* border: 2px solid red; */
+        font-size: 1.3em;
+    }
+
+    #cvBtn {
+        font-size: 1.2em;
+        height: 2.8em;
+        width: 80%;
+
+    }
+
+    #textCont {
+        width: 100%;
+    }
+
+    #profession {
+        font-size: 2em;
+        /* color: red; */
+        /* border: 2px solid green; */
+        /* background-color: red; */
+    }
+
+    #textCont span:nth-child(2) {
+        /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+        font-size: 1.5em;
+
+    }
+
+    /* Workpage Styling */
+    #workPage {
+        height: 50vh;
+        font-size: 10px;
+        gap: 0;
+
+    }
+
+    #works {
+        /* border: 2px solid red; */
+        margin: 0;
+    }
+
+    .worksList {
+        width: 80%;
+    }
+
+
+
+    #submitBtn {
+        /* border: 2px solid red; */
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        height: 6.0vh;
+        width: 60%;
+    }
+
+    #navitem {
+        display: none;
+    }
+
+    #btn {
+        display: block;
+        color: black;
+    }
+
+
+    /* New Version Responsive Style */
+
+    #about {
+
+        height: 170vh;
+        font-size: 10px;
+        row-gap: 1em;
+        grid-template-columns: 100vw;
+        justify-content: flex-start;
+        grid-template-rows: 16vh 79vh 100vh;
+    }
+
+
+    #photo {
+        display: none;
+    }
+#contactMe{
+    /* border: 2px solid red; */
+    margin: 0.7rem 0.3rem;
+}
+#upperSection{
+    height: 85vh;
+    /* border: 2px solid red; */
+}
+    #aboutMe {
+        margin-top: 0;
+        /* border: 2px solid yellow; */
+        width: 100%;
+        /* height: 50vh; */
+        row-gap: 0.6em;
+    }
+
+    #pro {
+        font-size: 1.5em;
+    }
+
+    #moreInfo {
+        background-color: rgb(138, 133, 133);
+        /* height: 50%; */
+        width: 100%;
+        padding: 0.3em 1em;
+        /* align-items: center; */
+        justify-content: left;
+        border-top: 2px solid white;
+        /* display: grid; */
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .tag {
+        /* border: 2px solid gold; */
+        color: white;
+
+    }
+
+    .value {
+        display: inline;
+    }
+
+    #aboutMe #info {
+        text-align: justify;
+        letter-spacing: 0;
+        line-height: 1.2em;
+    }
+
+    #contactMe {
+        /* border: 1px solid hotpink; */
+        width: 100%;
+        height: 30%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 0;
+        height: 3.4em;
+    }
+
+    #skillsHeader {
+        width: 100%;
+        background-color: rgb(31, 28, 28);
+        height: 18%;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8em
+    }
+    #bigHeader{
+
+    }
+
+    #skillsAndEducation {
+        /* border: 1px solid black; */
+        margin: 0;
+        /* background-color: rebeccapurple; */
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        height: 80vh;
+    }
+
+    #skills {
+        width: 100%;
+    }
+
+
+
+    #education {
+        width: 100%;
+    }
+
+    #education header {
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    /* Contact page Styling */
+
+    #ContactPage {
+        /* border: 2px solid green; */
+        height: 150vmax;
+    }
+
+    #left h3 {
+        text-align: center;
+    }
+
+
+    footer {
+        /* height: 20%; */
+        font-size: 1.3rem;
+        width: 100%;
+        /* border: 2px solid red;  */
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    #loveMsg{
+        display: inline-block;
+        /* background-color: ; */
+    }
+
+}

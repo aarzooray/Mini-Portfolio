@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Cache files
+.cache/
+*.cache
+
+# Debugging files
+.vscode/
+.idea/
+.DS_Store
+
+# Operating system files
+Thumbs.db
+*.swp
+
+# Optional npm cache directory
+.npm/
+
+# Build artifacts
+dist/
+build/
+
+# Coverage directory used by testing tools
+coverage/
+
+# MongoDB database files (if running locally)
+data/
+*.lock
+
+# Temporary files
+tmp/
+temp/
+
+# Specific IDE configurations (Optional)
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Optional OS-specific files
+*.log.*  
+*.bak
+*.pid
