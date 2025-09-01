@@ -6,7 +6,7 @@ import { app } from "../app.js"
 
 const dbConn = async () => {
     try {
-        const connInstance = await mongoose.connect(`mongodb+srv://aarzoo:aarzooray@cluster0.ylzyn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`);
+        const connInstance = await mongoose.connect(`mongodb+srv://aarzoo:aarzooray@regform.wurtk.mongodb.net/?retryWrites=true&w=majority&appName=RegForm`);
         app.on(Error,(err) => {
             console.log(`DB Connected but Not able to Communicate.`, err)
         })
